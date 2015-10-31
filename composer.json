@@ -1,0 +1,16 @@
+{
+    "name": "rudloff/smarty-plugin-noscheme",
+    "description": "Smarty modifier that removes the scheme in URLs",
+    "license": "GPL-3.0",
+    "require": {
+        "smarty/smarty": "~3.1"
+    },
+    "authors": [
+        {
+            "name": "Pierre Rudloff",
+            "email": "contact@rudloff.pro",
+            "homepage": "https://rudloff.pro/",
+            "role": "Developer"
+        }
+    ]
+}
