@@ -10,14 +10,15 @@
  * @license  GNU General Public License http://www.gnu.org/licenses/gpl.html
  * @link     http://rudloff.pro
  * */
+use League\Uri\Schemes\Http as HttpUri;
 
 /**
  * The noscheme modifier function
- * @param  string $url URL to parse
+ * @param  string $string URL to parse
  * @return string URL without scheme
  */
-function Smarty_Modifier_noscheme($url)
+function Smarty_Modifier_noscheme($string)
 {
-    $info = parse_url($url);
-    return '//'.$info['host'].$info['path'];
+    $uri = HttpUri::createFromString($string);
+    return (string)$uri->withScheme('');
 }
