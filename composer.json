@@ -1,22 +1,20 @@
 {
-    "name": "rudloff/smarty-plugin-noscheme",
-    "description": "Smarty modifier that removes the scheme in URLs",
-    "license": "GPL-3.0",
-    "require": {
-        "league/uri": "~4.1.1"
-    },
-    "require-dev": {
-        "symfony/var-dumper": "~3.0.1"
-    },
-    "authors": [
-        {
-            "name": "Pierre Rudloff",
-            "email": "contact@rudloff.pro",
-            "homepage": "https://rudloff.pro/",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "files": ["modifier.noscheme.php"]
-    }
+	"name": "rudloff/smarty-plugin-noscheme",
+	"description": "Smarty modifier that removes the scheme in URLs",
+	"license": "GPL-3.0",
+	"require": {
+		"league/uri": "~4.1.1"
+	},
+	"require-dev": {
+		"symfony/var-dumper": "~3.0.1"
+	},
+	"authors": [{
+		"name": "Pierre Rudloff",
+		"email": "contact@rudloff.pro",
+		"homepage": "https://rudloff.pro/",
+		"role": "Developer"
+	}],
+	"autoload": {
+		"files": ["modifier.noscheme.php"]
+	}
 }
