@@ -3,7 +3,7 @@
     "description": "Smarty modifier that removes the scheme in URLs",
     "license": "GPL-3.0",
     "require": {
-        "league/uri": "~4.0.1"
+        "league/uri": "~4.1.1"
     },
     "require-dev": {
         "symfony/var-dumper": "~3.0.1"
