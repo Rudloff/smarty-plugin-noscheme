@@ -10,8 +10,7 @@
  * @license  GNU General Public License http://www.gnu.org/licenses/gpl.html
  * @link     http://rudloff.pro
  * */
-require_once __DIR__.'/../vendor/autoload.php';
-require_once __DIR__.'/../modifier.noscheme.php';
+namespace Smarty_Modifier_noscheme\Test;
 
 /**
  * Test Smarty noscheme modifier
@@ -24,7 +23,7 @@ require_once __DIR__.'/../modifier.noscheme.php';
  * @license  GNU General Public License http://www.gnu.org/licenses/gpl.html
  * @link     http://rudloff.pro
  * */
-class NoschemeTest extends PHPUnit_Framework_TestCase
+class NoschemeTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
