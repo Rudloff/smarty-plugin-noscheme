@@ -11,6 +11,7 @@
  *
  * @link     http://rudloff.pro
  * */
+
 namespace Smarty_Modifier_noscheme\Test;
 
 /**
